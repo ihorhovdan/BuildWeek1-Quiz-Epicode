@@ -1,0 +1,72 @@
+h2 {
+    font-size:60px;
+    margin-bottom: 1%;
+    margin-top: 10%;
+    font-weight: bold;
+}
+.stelle{
+    margin-bottom: 1%;
+}
+
+.formContenitore {
+    margin-top: 5%;
+}
+
+.rating {
+    margin-top: 2%;
+}
+
+.commentRate {
+    margin: auto;
+    height: 40px;
+    color: grey;
+    background-color: transparent;
+    width: 50%;
+    border: none; 
+    border-bottom: 2px solid #d20094;
+    margin-bottom: 5%; 
+    padding-left: 1%;
+    box-sizing: border-box;
+}
+
+.dimensionP{
+    margin-top: 5%;
+}
+
+.bottoneIlluminato {
+ margin-right:10% ;
+ margin-bottom: 0%;
+}
+
+.divRecensione{
+    text-align: left;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    
+}
+#recensioneUtente{
+    justify-content: center;
+    width: 50%;
+    display: flex;
+    padding-top: 1%;   
+    margin: auto auto 5em auto;
+   
+}
+
+.immagineProfilo {
+    display: block;
+    width: 8%;
+    border-radius: 100%;
+    margin-right: 3%;
+    margin: auto;
+}
+
+#recensioneUtente p {
+    text-align: left;
+    font-size: 20px;
+    word-wrap: break-word;
+}
+
+#recensioneUtente div {
+    width: 80%;
+}

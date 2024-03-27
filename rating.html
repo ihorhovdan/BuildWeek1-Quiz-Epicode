@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/ratingStyle.css">
+    <title>Rating</title>
+    <meta title="Rate us page">
+    <meta name="description" content="Rating page">
+    <link rel="icon" href="assets/epicode_icon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <img src="assets/epicode_logo.png" alt="logo Epicode">
+        
+    </header>
+    <main>
+        <div>
+        <h2>Tell us how it's going</h2>
+        <p class="dimensionP">From 0 to 10, how likely are you recommend EPICODE to a friend or a colleague? </p>
+        </div>
+
+       
+        <div class="rating" id="rating">
+            <img class="star" src="assets/darkStar.svg" onclick="rateStar(1)" onmouseover="highlightStar(1)" onmouseout="resetStars()" alt="stella">
+            <img class="star" src="assets/darkStar.svg" onclick="rateStar(2)" onmouseover="highlightStar(2)" onmouseout="resetStars()" alt="stella">
+            <img class="star" src="assets/darkStar.svg" onclick="rateStar(3)" onmouseover="highlightStar(3)" onmouseout="resetStars()" alt="stella">
+            <img class="star" src="assets/darkStar.svg" onclick="rateStar(4)" onmouseover="highlightStar(4)" onmouseout="resetStars()" alt="stella">
+            <img class="star" src="assets/darkStar.svg" onclick="rateStar(5)" onmouseover="highlightStar(5)" onmouseout="resetStars()" alt="stella">
+            <img class="star" src="assets/darkStar.svg" onclick="rateStar(6)" onmouseover="highlightStar(6)" onmouseout="resetStars()" alt="stella">
+            <img class="star" src="assets/darkStar.svg" onclick="rateStar(7)" onmouseover="highlightStar(7)" onmouseout="resetStars()" alt="stella">
+            <img class="star" src="assets/darkStar.svg" onclick="rateStar(8)" onmouseover="highlightStar(8)" onmouseout="resetStars()" alt="stella">
+            <img class="star" src="assets/darkStar.svg" onclick="rateStar(9)" onmouseover="highlightStar(9)" onmouseout="resetStars()" alt="stella">
+            <img class="star" src="assets/darkStar.svg" onclick="rateStar(10)" onmouseover="highlightStar(10)" onmouseout="resetStars()" alt="stella">
+          </div>
+          
+
+        <p class="dimensionP">Leave us an open feedback about your experience so far </p> 
+        
+        <form class="formContenitore" >
+          <input class="commentRate" type="text" placeholder="Write your comment here">
+        </form>
+        
+        <button type="submit" class="bottoneIlluminato" > Submit </button>
+    <div id="recensioneUtente">
+    </div>
+    </main>
+    <script src="scripts/star.js"></script>
+</body>
+</html>
